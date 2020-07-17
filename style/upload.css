@@ -1,0 +1,113 @@
+div.container{
+	background:rgba(0,0,0,0.8);
+	color: #fff;
+	width: 80%;	
+	padding: 40px 30px;
+	border-radius: 15px;
+	margin: 10% 8% 8% 8%;
+	display: block;
+}
+form.uploadform label{
+	width: 30%;
+	float: left;
+	color: black;
+	font-size: 20px;
+}
+form.uploadform input{
+	width: 60%;
+}
+form.uploadform input[type="submit"]{
+
+	width: 120px;
+	background: red;
+	color: white;
+	padding: 7px;
+	border-radius: 10px;
+}
+form.uploadform input[type="submit"]:hover{
+	background: #db6e00;
+	color: black;
+}
+form.uploadform input[type="text"]{
+	
+	border-bottom: 1px solid #fff;
+	background-color: #262626;
+	outline: none;
+	height: 20px;
+	color: #fff;
+	font-style: 16px;
+
+}
+form.uploadform input[type="file"]{
+	width: 220px;
+	background: red;
+
+}
+.upimghead{
+	background: #444;
+	text-align: center;
+	border-radius: 90px;
+	font-size: 25px;
+}
+.upimgbody{
+	width: 500px;
+	border: 2px solid red;
+	margin: 0 auto;
+	padding: 10px 20px 20px;
+	color: black;
+	border-radius: 5px;
+	background: #aaa;
+}
+.upimggallery{
+	margin-top: 0px;
+}
+.tag{
+	float: left;
+	background: rgba(0,0,0,0.5);
+	margin-left: 10px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	text-align: center; 
+
+}
+.tag:hover{
+	box-shadow:0 0px 50px 0 ;
+}
+.tag img{
+	width: 300px;
+	height: 250px;
+}
+.tag h2{
+	color: green;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.tag h3{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.tag h4{
+	color: blue;
+	margin-top: 0;
+
+}
+.errmsg{
+	color: red;
+
+}
+.tag h5 a{
+	color: white;
+	padding: 10px;
+	padding-right: 20px;
+	padding-left: 20px;
+	margin-top: 10px;
+	text-decoration: none;
+	background-color: red;
+	border-radius: 10px;
+	font-size: 15px;
+}
+.tag h5 a:hover{
+	background: #db6e00;
+	color: black;
+	
+}
